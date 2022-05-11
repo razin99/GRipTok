@@ -100,7 +100,7 @@ func main() {
 	}
 
 	browser := rod.New().ControlURL(
-		launcher.New().Headless(false).MustLaunch(),
+		launcher.New().Headless(true).MustLaunch(),
 	).MustConnect()
 	defer browser.MustClose()
 
