@@ -1,6 +1,7 @@
 # GRipTok
 - Download all videos from a user on TikTok
 - Not very efficient yet, still does about 1 video every second
+- And may occasionally (or frequently) partially download files
 
 ## Download strategy
 - Get first video
